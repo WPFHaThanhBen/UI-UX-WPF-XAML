@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="633_facebook_icon.jpg" />
+    <None Remove="facebook_100124.png" />
+    <None Remove="google-logo-6278331_960_720.webp" />
+    <None Remove="idesign_logogg_1.jpg" />
+    <None Remove="pexels-anastasia-shuraeva-7279327.jpg" />
+    <None Remove="pexels-ena-marinkovic-3640930.jpg" />
+    <None Remove="pexels-sergei-bezborodov-16033791.jpg" />
+    <None Remove="pngtree-email-mail-message-open-png-image_1618901.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="633_facebook_icon.jpg" />
+    <Resource Include="facebook_100124.png" />
+    <Resource Include="google-logo-6278331_960_720.webp" />
+    <Resource Include="idesign_logogg_1.jpg" />
+    <Resource Include="pexels-anastasia-shuraeva-7279327.jpg" />
+    <Resource Include="pexels-ena-marinkovic-3640930.jpg" />
+    <Resource Include="pexels-sergei-bezborodov-16033791.jpg" />
+    <Resource Include="pngtree-email-mail-message-open-png-image_1618901.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Design\" />
+  </ItemGroup>
+
+</Project>
